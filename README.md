@@ -38,22 +38,29 @@ Clean UI Principles
 
 
 🔍 What Each Day Contains
+
 Every day folder includes:
+
 ✔ Source code
+
 ✔ Screenshot(s)
+
 ✔ Short explanation
+
 ✔ What I learned
+
 ✔ Notes for improvements
+
 This keeps the challenge structured and easy to track.
 
 
 
-📸 Screenshots
-Screenshots of each project are inside their respective folders.
+📸 Screenshotsof each project are inside their respective folders.
 
-🪪 License
-This project is licensed under the MIT License.
+🪪 This project is licensed under the MIT License.
 
 🚀 Stay Tuned
+
+
 More UI layouts, components, and creative frontend projects will be added regularly.
 This is just the beginning!
