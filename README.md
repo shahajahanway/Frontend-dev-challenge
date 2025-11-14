@@ -23,23 +23,6 @@ Clean UI Principles
 
 
 
-
-📁 Folder Structure
-frontend-dev-challenge/
-│
-├── Day-1-Bento-Grid/
-│   ├── index.html
-│   ├── style.css
-│   ├── script.js   (optional)
-│   ├── screenshot.png
-│   └── README.md
-│
-├── Day-2-Next-Project/
-│   └── (Coming soon)
-│
-├── LICENSE
-└── README.md
-
 🎯 Purpose of This Challenge
 
 .Build consistency in frontend development
