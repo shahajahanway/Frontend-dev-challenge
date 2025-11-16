@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #1a1a1a;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  display: flex;
+  max-width: 1400px;
+  margin: 3rem auto;
+  background: #000;
+  border-radius: 8px;
+  box-shadow: 0 0 30px #000;
+  min-height: 800px;
+}
+
+
+.left {
+  flex: 1;
+  padding: 4rem 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #000;
+}
+
+/* Nav */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+nav .logo {
+  font-family: "Orbitron", monospace;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ff6f61;
+}
+
+.headline {
+  margin-bottom: 2rem;
+}
+
+.headline .small-text {
+  font-family: "Orbitron", monospace;
+  font-weight: 700;
+  font-size: rem;
+  letter-spacing: 1.8px;
+  opacity: 0.8;
+  margin-bottom: 0.3rem;
+  margin-top: 4rem;
+  text-transform: uppercase;
+
+}
+
+:root {
+  --side-top-offset: 4rem;
+}
+
+@media (max-width: 900px) {
+  :root {
+    --side-top-offset: 2.7rem;
+  }
+}
+
+.btn-mint {
+  top: var(--side-top-offset) !important;
+}
+
+.headline .large-text {
+  font-family: "Orbitron", monospace;
+  font-weight: 700;
+  font-size: 6.9rem;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+
+.description {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  opacity: 0.85;
+  max-width: 600px;
+  margin-bottom: 2.7rem;
+}
+
+
+.btn-discover {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  border: 1px solid white;
+  padding: 0.6rem 1.8rem;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  background: transparent;
+  color: white;
+  font-size: 0.9rem;
+  width: fit-content;
+  margin-bottom: 0.3rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-discover:hover {
+  background: #ff6f61;
+}
+
+.btn-discover svg,
+.btn-mint svg {
+  stroke: currentColor;
+  stroke-width: 2;
+  width: 2rem;
+  height: 2rem;
+
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.social-icons svg {
+  width: 18px;
+  height: 18px;
+  stroke: white;
+  stroke-width: 1.5;
+  fill: none;
+  cursor: pointer;
+  transition: stroke 0.3s ease;
+}
+
+.social-icons svg:hover {
+  stroke: #ff6f61;
+}
+
+
+
+/* Right side */
+.right {
+  flex: 1;
+  position: relative;
+}
+
+.right img.main-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  vertical-align: middle;
+  user-select: none;
+}
+
+.btn-mint {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  background: transparent;
+  border: 1.5px solid white;
+  color: white;
+  padding: 0.5rem 1.3rem;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  user-select: none;
+  backdrop-filter: none;
+}
+
+.btn-mint:hover {
+  background: #ff6f61;
+  border-color: white;
+}
+
+
+.ai-prompts {
+  position: absolute;
+  bottom: 22px;
+  left: 0%;
+  transform: translateX(-50%);
+  background: rgba(255 255 255 / 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 450px;
+  width: 90%;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+  user-select: none;
+}
+
+.ai-prompts img {
+  width: 72px;
+  height: 92px;
+  border-radius: 12px;
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: 0 0 10px 2px rgba(255, 111, 97, 0.7);
+}
+.ai-texts {
+  flex: 1;
+}
+.ai-title {
+  font-family: "Orbitron", monospace;
+  font-weight: 700;
+  font-size: .8rem;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+.ai-description {
+  font-size: 0. Eightrem;
+  line-height: 1.4;
+  opacity: 0.9;
+  margin-bottom: 0.5rem;
+}
+.prompt-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.prompt-btn {
+  background: rgba(255 255 255 / 0.15);
+  border-radius: 20px;
+  padding: 0.35rem 0.85rem;
+  font-weight: 600;
+  font-size: 0.78rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.prompt-btn:hover {
+  background: #ff6f61;
+}
+
+
