@@ -10,9 +10,9 @@ Day	Project	Status	Folder
 
 Day 1	Bento Grid UI	  ✅ Completed	Day-1-Bento-Grid
 
-Day 2	Real-Estate-UI  ✅ Completed Day-2-Real-Estate-UI
+Day 2	Real Estate UI  ✅ Completed Day-2-Real-Estate-UI
 
-Day 3	Coming Soon	⏳	—
+Day 3	NFC Non Fungible Culture ✅ Completed Day-3-NFC-UI
 
 
 More days will be added as the challenge continues.
